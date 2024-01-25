@@ -1,0 +1,102 @@
+html {
+    background: url(projetos.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 8px;
+}
+
+li{
+    
+   float: left;
+   margin-left: 15%;
+   padding: 8px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+li a{
+    text-align: center;
+    display:block;
+    padding:14px 16px;
+    color: rgb(7, 203, 238);
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #aaafa8;
+    border-radius: 20px;
+    color: rgb(5, 5, 5)
+  }
+
+  h1{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(7, 203, 238);
+    font-family: 'Roboto', sans-serif;
+  }
+  .texto{
+    background-color: rgba(1, 14, 12, 0.527);
+  }
+
+  .texto h2{
+    
+    font-family:  'Merriweather', serif;
+    margin-left: 250px;
+    text-align:left;
+    font-size: 50px;
+    color:rgb(7, 203, 238);
+  }
+
+.texto .p1{
+
+    width: 600px;
+    font-size: 20px;
+    text-align: left;
+    color: #e8eff0;
+    padding: 10px;
+    margin-left: 2%;
+    margin-top: -3%;
+}
+.imagen{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 60%;
+    margin-top: -65%;
+ }
+
+ .part2{
+    background-color: rgba(1, 14, 12, 0.527);
+    margin-top: 50px;
+    height: 560px;
+ }
+
+ .gallery{
+    padding: 20px;
+    margin: 3%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+ }
+
+ .gallery:hover{
+    border: 1px solid #777;
+ }
+
+.gallery img{
+    width: 100%;
+    height: auto;
+ }
+
+.desc{
+    color: #e8eff0;
+    padding: 15px;
+    text-align: center;
+ }

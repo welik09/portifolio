@@ -1,0 +1,1 @@
+document.getElementById("navbar").HTMLElementObject.blur('')
