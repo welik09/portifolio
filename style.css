@@ -8,12 +8,12 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.877);
     padding: 8px;
 }
 
 li{
-    
+    font-size: 15px;
    float: left;
    margin-left: 15%;
    padding: 8px;
@@ -30,9 +30,9 @@ li a{
 }
 
 li a:hover{
-    background-color: #aaafa8;
+    background-color: #03bbd3;
     border-radius: 20px;
-    color: rgb(5, 5, 5)
+    color: rgb(250, 246, 246)
   }
 
   h1{
@@ -42,20 +42,28 @@ li a:hover{
     font-family: 'Roboto', sans-serif;
   }
   .texto{
-    background-color: rgba(1, 14, 12, 0.527);
+    background-color: rgba(1, 14, 12, 0.836);
+  }
+
+  .texto h2 span{
+    margin-left: 12px;
+    font-size: 13px;
+    cursor: pointer;
   }
 
   .texto h2{
     
     font-family:  'Merriweather', serif;
-    margin-left: 250px;
+    margin-left: 190px;
     text-align:left;
     font-size: 50px;
     color:rgb(7, 203, 238);
   }
 
-.texto .p1{
-
+.texto p{
+    height: 10px;
+    transition: 1s;
+    overflow: hidden;
     width: 600px;
     font-size: 20px;
     text-align: left;
@@ -64,6 +72,11 @@ li a:hover{
     margin-left: 2%;
     margin-top: -3%;
 }
+.mostrar{
+  height: 100px !important;
+}
+
+
 .imagen{
     width: 400px;
     height: 400px;
@@ -73,21 +86,24 @@ li a:hover{
  }
 
  .part2{
-    background-color: rgba(1, 14, 12, 0.527);
+    background-color: rgba(1, 14, 12, 0.849);
     margin-top: 50px;
-    height: 560px;
+    height: 580px;
  }
 
  .gallery{
+  margin-top: 30px;
     padding: 20px;
-    margin: 3%;
+    margin-left: 150px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 120px;
+    transition: 1s;
  }
 
  .gallery:hover{
-    border: 1px solid #777;
+    width: 200px;
+    border: 1px solid rgb(7, 203, 238);
  }
 
 .gallery img{
@@ -99,4 +115,41 @@ li a:hover{
     color: #e8eff0;
     padding: 15px;
     text-align: center;
+ }
+
+ .contatos{
+  margin-top: 50px;
+  background-color: rgba(1, 14, 12, 0.849);
+  height: 130px;
+ }
+
+ div i{
+  width: 1px;
+  height:0;
+  top: 10px;
+  margin-top: 50px;
+  float: left;
+  font-size: 50px;
+  padding:0 50px;
+  background-color: #03bbd3;
+ }
+
+ .git{
+  cursor: pointer;
+  color: #ebeff0;
+ }
+
+ .insta{
+  cursor: pointer;
+  color: #da7706;
+ }
+
+ .link{
+  cursor: pointer;
+  color: #034353;
+ }
+
+ .whats{
+  cursor: pointer;
+  color: #03f82c;
  }
