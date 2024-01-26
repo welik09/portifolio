@@ -4,7 +4,7 @@ span.addEventListener('click',function(){
     var texto = document.querySelectorAll('.texto p')[0];
 
     if(texto.classList.contains('mostrar')){
-        span.innerHTML = 'ver mais';
+        span.innerHTML = 'saiba mais';
         texto.classList.remove('mostrar');
 
     }else{
@@ -20,7 +20,7 @@ span.addEventListener('click',function(){
     var texto = document.querySelectorAll('.texto p')[1];
 
     if(texto.classList.contains('mostrar')){
-        span.innerHTML = 'ver mais';
+        span.innerHTML = 'saiba mais';
         texto.classList.remove('mostrar');
 
     }else{
