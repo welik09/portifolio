@@ -1,6 +1,16 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.clear{
+  clear: both;
+}
+
 html {
-    background: url(projetos.jpg) no-repeat center fixed;
-    background-size: cover;
+  background: url(projetos.jpg) no-repeat center fixed;
+  background-size: cover;
   }
 
 ul{
@@ -60,40 +70,41 @@ li a:hover{
   }
 
 .texto p{
-    height: 10px;
+    height: 30px;
     transition: 1s;
     overflow: hidden;
     width: 600px;
     font-size: 20px;
     text-align: left;
     color: #e8eff0;
-    padding: 10px;
+    padding: 2.3%;
     margin-left: 2%;
     margin-top: -3%;
 }
 .mostrar{
-  height: 100px !important;
+  height: 180px !important;
 }
 
 
 .imagen{
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
-    margin-left: 60%;
-    margin-top: -320px;
+    margin-left: 70%;
+    margin-top: -350px;
  }
 
  .part2{
     background-color: rgba(1, 14, 12, 0.849);
-    margin-top: 50px;
-    height: 600px;
+    margin-top: 2%;
+    height: 530px;
  }
 
  .gallery{
-    margin-top: 50px;
-    padding: 20px;
-    margin-left: 10%;
+    margin: 0;
+    margin-top: 6%;
+    padding: 0;
+    margin-left: 6.7%;
     border: 1px solid #ccc;
     float: left;
     width: 200px;
@@ -101,6 +112,7 @@ li a:hover{
  }
 
  .gallery:hover{
+    margin:0 40px;
     width: 250px;
     border: 1px solid rgb(7, 203, 238);
  }
@@ -116,16 +128,18 @@ li a:hover{
     text-align: center;
  }
 
+
  .part3{
   background-color: rgba(1, 14, 12, 0.849);
-  margin-top: 590px;
+  margin-top: 10.5%;
   height: 550px;
 }
 
  .gallery2{
-   margin-top:15px;
-    padding: 20px;
-    margin-left:10%;
+  margin: 0;
+    margin-top: 6%;
+    padding: 0;
+    margin-left: 6.7%;
     border: 1px solid #ccc;
     float: left;
     width: 200px;
@@ -133,6 +147,7 @@ li a:hover{
  }
 
  .gallery2:hover{
+   margin:0 40px;
     width: 250px;
     border: 1px solid rgb(7, 203, 238);
  }
@@ -150,19 +165,19 @@ li a:hover{
 
 
  .contatos{
-  margin-top: 610px;
+  margin-top: 10%;
   background-color: rgba(1, 14, 12, 0.849);
-  height: 160px;
+  height: 140px;
  }
 
  div i{
   width: 0;
   height:0;
-  top: 10px;
-  margin-top: 20px;
+  top: 20px;
+  margin-top: 5%;
   float: left;
   font-size: 50px;
-  padding:0 200px;
+  padding:0 100px;
   background-color: #03bbd3;
   margin-left: 50px;
  }
@@ -187,11 +202,6 @@ li a:hover{
   color: #03f82c;
  }
 
- .whats{
-  width: 0;
-  position: relative;
-  display:flex;
-}
 .p4{
   font-size: 20px
 }
@@ -205,7 +215,7 @@ li a:hover{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding:0;
   text-align: center;
-  background-color: #03bbd3;
+  
 }
 
 i:hover .drop{
@@ -224,356 +234,141 @@ a:hover{
   
 }
 
-@media screen and (max-width:1590px){
-  
-  .part2{
-    background-color: rgba(1, 14, 12, 0.849);
-    margin-top: 50px;
-    height: 500px;
+@media screen and (max-width:760px){
+  li{
+  font-size: 15px;
+   float: left;
+   margin-left: 25%;
+   padding: 8px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+li a{
+    text-align: center;
+    padding:5px 50px;
+    color: rgb(7, 203, 238);
+    text-decoration: none;
+}
+
+
+
+.texto h2{
+  font-family:  'Merriweather', serif;
+  margin-left: 40px;
+  text-align:left;
+  font-size: 30px;
+  color:rgb(7, 203, 238);
+  padding: 10px;
+}
+
+.texto p{
+  height: 30px;
+  transition: 1s;
+  overflow: hidden;
+  width: 250px;
+  font-size: 20px;
+  text-align: left;
+  color: #e8eff0;
+  padding: 5.3%;
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+
+.imagen{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: 21%;
+  margin-top: -8px;
+}
+
+.part2{
+  background-color: rgba(1, 14, 12, 0.849);
+  margin-top: 2%;
+  height: 690px;
+}
+
+.gallery{
+    margin: 0;
+    margin-top: 6%;
+    margin-left: 10.7%;
+    border: 1px solid #ccc;
+    width: 130px;
+    transition: 1s;
  }
 
- .gallery{
-  margin-top: 50px;
-  padding: 10px;
-  margin-left: 12%;
-  border: 1px solid #ccc;
-  float: left;
-  width: 120px;
-  transition: 1s;
-}
-
-.gallery img{
-  width: 100%;
-  height: auto;
-}
-.gallery:hover{
-  width: 150px;
-  border: 1px solid rgb(7, 203, 238);
-}
-
-
-.desc{
-  color: #e8eff0;
-  text-align: center;
-}
-
-
-.part3{
-  background-color: rgba(1, 14, 12, 0.849);
-  margin-top:35%;
-  height: 500px;
+ .gallery:hover{
+  margin: 0;
+    margin-top: 6%;
+    margin-left: 10.7%;
+    border: 1px solid #f30800;
+    width: 130px;
+    transition: 1s;
 }
 
 .gallery2{
-margin-top: 2%;
-padding: 10px;
-margin-left: 12%;
-border: 1px solid #ccc;
-float: left;
-width: 120px;
-transition: 1s;
+  margin: 0;
+  margin-top: 6%;
+  margin-left: 10.7%;
+  border: 1px solid #ccc;
+  width: 130px;
+  transition: 1s;
 }
 
-.gallery2 img{
-width: 100%;
-height: auto;
-}
 .gallery2:hover{
-width: 150px;
-border: 1px solid rgb(7, 203, 238);
-}
-
-
-.desc{
-color: #e8eff0;
-text-align: center;
-}
-
-
-div i{
-  width: 0;
-  height:0;
-  margin-top: 20px;
-  font-size: 50px;
-  padding:0 20px;
-  background-color: #03bbd3;
-  margin-left: 20%;
- }
-
- .whats{
-  padding:0 200px;
-}
-
-}
-
- @media screen and (max-width:1360px) {
-  
-  .texto h2{
-    font-family:  'Merriweather', serif;
-    margin-left: 35%;
-    text-align:left;
-    font-size: 50px;
-    color:rgb(7, 203, 238);
-  }
-
-  
-.texto p{
-  height: 10px;
+margin: 0;
+  margin-top: 6%;
+  margin-left: 10.7%;
+  border: 1px solid #f30800;
+  width: 130px;
   transition: 1s;
-  overflow: hidden;
-  width: 400px;
-  font-size: 20px;
-  text-align: left;
-  color: #e8eff0;
-  padding: 10px;
-  margin-left: 35%;
-  margin-top: -3%;
 }
-  
-  .texto h2 span{
-    margin-left: 2%;
-    font-size: 13px;
-    cursor: pointer;
-  }
-
-  
-li{
-font-size: 15px;
- float: left;
- margin-left: 20%;
- padding: 0;
- font-family: 'Roboto', sans-serif;
+.part3{
+  background-color: rgba(1, 14, 12, 0.849);
+  margin-top: 13%;
+  height: 690px;
 }
-  
 
-  .imagen{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    margin-left: 35%;
-    margin-top: -2%;
-  }
 
-  .gallery{
-    margin-top:2%;
-    padding:8%;
-    margin-left:5%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 30px;
-    height: 40px;
-    transition: 1s;
-  }
-  
-  .gallery img{
-    margin-top: -35px;
-    margin-left: -35px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .gallery:hover{
-    width: 0;
-    height: 0;
-    left: 0;
-    border: 1px solid rgb(7, 203, 238);
-  }
-  
-  
-  .desc{
-    color: #e8eff0;
-     display: none;
-    text-align: center;
-  }
-  .part3{
-    background-color: rgba(1, 14, 12, 0.849);
-    margin-top:40%;
-    height: 500px;
-  }
-  
-  .gallery2{
-    margin-top:10%;
-    padding:8%;
-    margin-left:5%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 30px;
-    height: 40px;
-    transition: 1s;
-  }
-  
-  .gallery2 img{
-    margin-top: -35px;
-    margin-left: -35px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .gallery2:hover{
-    width: 0;
-    height: 0;
-    left: 0;
-    border: 1px solid rgb(7, 203, 238);
-  }
-  
-  
-  .desc{
-    color: #e8eff0;
-     display: none;
-    text-align: center;
-  }
+.contatos{
+  margin-top: 12%;
+  background-color: rgba(1, 14, 12, 0.849);
+  height: 140px;
+ }
 
-  
-div i{
+ div i{
   width: 0;
   height:0;
-  margin-top: 2%;
+  top: 30px;
+  margin-top: 20%;
+  float: left;
   font-size: 50px;
-  padding:0 20px;
+  padding:0 40px;
   background-color: #03bbd3;
-  margin-left: 20%;
+  margin-left: 5px;
  }
 
- .whats{
-  padding:25px 120px;
-}
-
-
- }
- 
- @media  screen and (max-width:390px){
-  
-  .texto h2{
-    font-family:  'Merriweather', serif;
-    margin-left: 35%;
-    text-align:left;
-    font-size: 50px;
-    color:rgb(7, 203, 238);
-  }
-
-  
-.texto p{
-  height: 10px;
-  transition: 1s;
-  overflow: hidden;
-  width: 400px;
-  font-size: 20px;
-  text-align: left;
-  color: #e8eff0;
-  padding: 10px;
-  margin-left: 35%;
-  margin-top: -3%;
-}
-  
-  .texto h2 span{
-    margin-left: 2%;
-    font-size: 13px;
-    cursor: pointer;
-  }
-
-  
-li{
-font-size: 15px;
- float: left;
- margin-left: 20%;
- padding: 0;
- font-family: 'Roboto', sans-serif;
-}
-  
-
-  .imagen{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    margin-left: 35%;
-    margin-top: -2%;
-  }
-
-  .gallery{
-    margin-top:2%;
-    padding:8%;
-    margin-left:5%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 30px;
-    height: 40px;
-    transition: 1s;
-  }
-  
-  .gallery img{
-    margin-top: -35px;
-    margin-left: -35px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .gallery:hover{
-    width: 0;
-    height: 0;
-    left: 0;
-    border: 1px solid rgb(7, 203, 238);
-  }
-  
-  
-  .desc{
-    color: #e8eff0;
-     display: none;
-    text-align: center;
-  }
-  .part3{
-    background-color: rgba(1, 14, 12, 0.849);
-    margin-top:40%;
-    height: 500px;
-  }
-  
-  .gallery2{
-    margin-top:10%;
-    padding:8%;
-    margin-left:5%;
-    border: 1px solid #ccc;
-    float: left;
-    width: 30px;
-    height: 40px;
-    transition: 1s;
-  }
-  
-  .gallery2 img{
-    margin-top: -35px;
-    margin-left: -35px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .gallery2:hover{
-    width: 0;
-    height: 0;
-    left: 0;
-    border: 1px solid rgb(7, 203, 238);
-  }
-  
-  
-  .desc{
-    color: #e8eff0;
-     display: none;
-    text-align: center;
-  }
-
-  
-div i{
+ .p0{
   width: 0;
-  height:0;
-  margin-top: 2%;
-  font-size: 50px;
-  padding:0 20px;
-  background-color: #03bbd3;
-  margin-left: 20%;
- }
-
- .whats{
-  padding:25px 120px;
+  height: 0;
+  color: #03bbd3;
+  text-align: center;
+  margin-left: 25%;
 }
 
-
- }
- 
- 
+.drop{
+  margin-left:0;
+  margin-top: 0;
+  display: none;
+  height:0;
+  text-align: left;
+  color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding:0;
+  text-align: center;
+  
+}
+  
+}
