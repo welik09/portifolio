@@ -73,7 +73,7 @@ li a:hover{
     height: 30px;
     transition: 1s;
     overflow: hidden;
-    width: 600px;
+    width: 700px;
     font-size: 20px;
     text-align: left;
     color: #e8eff0;
@@ -82,7 +82,7 @@ li a:hover{
     margin-top: -3%;
 }
 .mostrar{
-  height: 180px !important;
+  height: 280px !important;
 }
 
 
@@ -131,7 +131,7 @@ li a:hover{
 
  .part3{
   background-color: rgba(1, 14, 12, 0.849);
-  margin-top: 10.5%;
+  margin-top: 18.5%;
   height: 550px;
 }
 
@@ -286,8 +286,8 @@ li a{
 
 .part2{
   background-color: rgba(1, 14, 12, 0.849);
-  margin-top: 2%;
-  height: 690px;
+  margin-top: 3%;
+  height: 490px;
 }
 
 .gallery{

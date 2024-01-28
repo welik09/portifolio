@@ -1,0 +1,132 @@
+html, body {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    display: block;
+}
+header {
+    background-color: rgb(14, 192, 193);
+    padding: 10px 2%;
+    display: block;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.logo1 {
+    float: left;
+    width: 120px;
+    height: 100px;
+    background-image: url(./img/codewel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px;
+}
+ul {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 30px 20px 20px;
+    padding: 10px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(209, 176, 8);
+
+}
+.clear {
+    clear: both;
+}
+section.cover-form {
+    width: 100%;
+    padding: 0px 2%;
+}
+.bg {
+    height: 700px;
+    background-size: cover;
+    background-image: url(./img/setupmeu.jpeg);
+    background-position: center center;
+}
+
+section.chamada {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 2% 2% 0%;
+}
+section.chamada .container {
+    background-color: rgb(254, 247, 213);
+    padding: 20px;
+}
+section.chamada h2 {
+    width: 96%;
+    display: inline-block;
+    max-width: 700px;
+    color: rgb(33, 1, 35);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+section.chamada p {
+    width: 96%;
+    display: inline-block;
+    max-width: 700px;
+    color: rgb(33, 1, 35);
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.flex-mosaico {
+    display: flex;
+    height: 400px;
+    padding: 2%;
+    margin: 0px;
+}
+.item1-mosaico {
+    background-size: cover;
+    width: 60%;
+    background-position: center center;
+    padding: 2%;
+}
+.item2-mosaico {
+    text-align: center;
+    background-color: rgb(108, 4, 60);
+    width: 40%;
+    padding: 60px;
+}
+p {
+    display: inline-block;
+    margin-top: -90px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    padding: 60px;
+}
+@media screen and (max-width: 1768px){
+    p {
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}

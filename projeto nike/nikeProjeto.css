@@ -44,22 +44,28 @@ ul {
 .bar li{
   width: 100px;
   margin: 20px;
+  
  }
  .nav2{
   width: 100%;
   height: 10px;
+  
  }
 
  .nike{
+  float: left; 
   cursor: pointer;
   width: 80px;
-  height: 50px;
+  height: 80px;
   background-image: url('nike.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .busca{
+  float: left;
+   margin-left: 60%;
+   margin-top: -4.3%;
   border-radius: 20px;
   padding:10px ;
   background-color: rgb(224, 238, 238);
@@ -71,11 +77,14 @@ ul {
   border: 1px solid;
 }
 
-i{
+.nav2 i{
+  top: -10px;
+  float: right;
   align-items: center;
-  padding:4px 4px 4px 4px;
+ margin-top: -30px;
   background-size:10px 10px;
   font-size: 28px;
+ 
 }
 
 .nav2 i:hover{
@@ -196,12 +205,12 @@ h1{
 
 .div2 .h1{
   color: aliceblue;
-  margin-left: 530px;
+  margin-left: 38%;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .div2 .p2{
-  margin-left: 530px;
+  margin-left: 38%;
   font-size: 40px;
 }
 
@@ -242,4 +251,206 @@ font-family: 'Open Sans', sans-serif;
 
   
  
+@media screen and (max-width:760px){
+
+div.barranav{
+  position: fixed;
+  background-color: rgb(96, 99, 102);
+  width: 100%;
+  height: 50px;
+}
+
+
+
+a{
+  text-decoration: none;
+  display: block;
+  padding: 1px;
+  color:rgb(245, 241, 241) ;
+}
+
+
+.jordan{
+  width: 30px;
+  height: 30px;
+  background-image: url('jordan.png');
+  background-size: 100%;
+}
+
+.nav2{
+  width: 10px;;
+  height:0;
+ }
+
+
+.bar li{
+  display: none;
+  margin-left: 25%;
+}
+
+input[type="search"]{
+  position: fixed;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.nav2 i{
+  width: 0;
+  height: 0;
+}
+
+.nav2 i:hover{
+  display: none;
+  border-radius: 90px;
+  background-color: rgb(208, 224, 240);
+}
+.barra i{
+  width: 200px;font-size: 20px;
+}
+.barra{
+  margin-left: -80px;
+  margin-top: 150px;
+}
+
+ 
+.caixa{
+  margin-top: -3%;
+  padding: 20px 60px 100px; 
+}
+
+.img{
+  width: 100%;
+  height: 500px;
+  padding:0;
+}
+
+.app{
+  margin-top: -60px;
+}
+
+.button1{
+  margin-left: 95px;
+}
+
+
+.div1{
+  padding: 130px 50px; 
+  background-color: #fffefe;
+}
+
+.div2{
+  margin-top: -80px;
+  width: 100%;
+  height: 700px;
+  padding:0;
+  background-color: rgb(255, 60, 0);
+}
+
+.img2{
+  margin-top: 100px;
+  margin-left: 58.3%;
+  width: 40%;
+  height: 150px;
+  padding:0;
+  background-image: url(/tenis.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   
+}
+
+.div2 h1{
+  margin-top: -240px;
+  text-align: left;
+  margin-left: 20px;
+  width: 30px;
+  font-size: 30px;
+}
+
+.div2 p{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -10px;
+  width: 130px;
+  font-size: 20px;
+  padding: 0 0 80px;
+}
+.button2 {
+  margin-top: 78%;
+  cursor: pointer;
+  background-color: #000000; /* Green */
+  border: none;
+  border-radius: 30PX;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 70px;
+}
+
+
+.div2 .h1{
+  margin-top: -300px;
+  color: aliceblue;
+  margin-left: 10%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.div2 .p2{
+  margin-left: 10%;
+  font-size: 40px;
+}
+
+.h2{
+color: rgb(13, 13, 14);
+float: left;
+font-size: 50px;
+margin-left: 50px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.img3{
+  height: 400px;
+  background-color: #000000;
+
+}
+
+
+.h2{
+  color: rgb(13, 13, 14);
+  float: left;
+  font-size: 50px;
+  margin-left: 50px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -90px;
+  }
+  
+  .img3{
+    height: 400px;
+    background-color: #000000;
+  
+  }
+  
+  .tenis1{
+    margin-left: 30px;
+    background-image: url(/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45%;
+    height: 200px;
+   }
+  
+  .tenis2{
+    margin-left: 1px;
+    background-image: url(/tenis.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45%;
+    height: 200px;
+    padding: 0;
+    
+  }
+  
+
+  }
