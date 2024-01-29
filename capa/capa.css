@@ -9,11 +9,6 @@ margin: 0;
 padding: 0;
 width: 100%;
 box-sizing: border-box;
-font-family: 'Honk', system-ui;
-font-family: 'Merriweather', serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Rubik Burned', system-ui;
 }
     
 
@@ -39,7 +34,7 @@ h1{
     text-align: center;
     float: inline-start;
     margin-left: 200px;
-    
+    font-family: 'Rubik Burned', system-ui;
 }
 
 .meio{
@@ -109,7 +104,7 @@ form p{
     margin-left: 0px;
 }
 
-button{
+.button{
     cursor: pointer;
     margin-left: 20px;
     width: 100px;
@@ -136,3 +131,16 @@ footer{
     color: white;
     text-align: center;
 }
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+  }

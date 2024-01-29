@@ -11,11 +11,11 @@
 </head>
 <body>
     <div class="cabeca">
-<h1>home</h1>
+<h1 id="casa">home</h1>
 <h1>sobre mim </h1>
 </div>
 <div class="clear"></div>
-<img class="img" src="astronalta.svg" >
+<img id="img" class="img" src="astronalta.svg" >
 <div class="meio">
     <h2> Olo mundo </h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita optio praesentium, inventore ad 
@@ -25,20 +25,51 @@
 
 <div class="clear"></div>
 
-<form method="post" class="form-login">
+<form  name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" class="form-login">
     <div class="form-element">
        <p>acessar projetos</p> 
-        <input type="email" placeholder="colocar email"><!--email  -->
-        <input type="password" placeholder="colocar senha"><!--email  -->
-        <button>entrar</button>
+        <input type="email" placeholder="colocar email" name="fname" required><!--email  -->
+        <input type="password" placeholder="colocar senha" required><!--email  -->
+        <input class="button" type="submit" value="Enviar"  >
     </div><!-- form-element -->
 
     <div class="clear"></div>
 
-    <div class="rodape">
+    <div id="rodape" class="rodape">
     <footer>
         <p> desenvolvido por welik carlos</p>
     </footer>
 </div>
+
+
+
+<script>
+
+document.getElementById("img").style.marginLeft = "970px";
+document.getElementById("rodape").style.marginLeft = "100px"
+
+function myMove() {
+  let id = null;
+  const elem = document.getElementById("img");
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+
+
+
+
+
+
+</script>
 </body>
 </html>
