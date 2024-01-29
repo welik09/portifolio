@@ -9,7 +9,7 @@
 }
 
 html {
-  background: url(projetos.jpg) no-repeat center fixed;
+  background:linear-gradient(rgba(0, 0, 0, 0.897), rgb(12, 12, 12)), url(projetos.jpg) no-repeat center fixed;
   background-size: cover;
   }
 
@@ -18,7 +18,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.877);
+    
     padding: 8px;
 }
 
@@ -52,16 +52,19 @@ li a:hover{
     font-family: 'Roboto', sans-serif;
   }
   .texto{
-    background-color: rgba(1, 14, 12, 0.836);
+    margin-top: -420px;
+
   }
 
   .texto h2 span{
+    margin-top: 80px;
     margin-left: 12px;
     font-size: 13px;
     cursor: pointer;
   }
 
   .texto h2{
+    padding: 40px;
     font-family:  'Merriweather', serif;
     margin-left: 190px;
     text-align:left;
@@ -87,16 +90,17 @@ li a:hover{
 
 
 .imagen{
-    width: 250px;
-    height: 250px;
+  padding: 0;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     margin-left: 70%;
-    margin-top: -350px;
+    margin-top: 100px;
  }
 
  .part2{
-    background-color: rgba(1, 14, 12, 0.849);
-    margin-top: 2%;
+    
+    margin-top: 4%;
     height: 530px;
  }
 
@@ -130,8 +134,8 @@ li a:hover{
 
 
  .part3{
-  background-color: rgba(1, 14, 12, 0.849);
-  margin-top: 18.5%;
+ 
+  margin-top: 10%;
   height: 550px;
 }
 
@@ -165,16 +169,15 @@ li a:hover{
 
 
  .contatos{
-  margin-top: 10%;
-  background-color: rgba(1, 14, 12, 0.849);
-  height: 140px;
+  margin-top: 5%;
+  height: 200px;
  }
 
  div i{
   width: 0;
   height:0;
   top: 20px;
-  margin-top: 5%;
+  margin-top: 9%;
   float: left;
   font-size: 50px;
   padding:0 100px;
@@ -230,7 +233,7 @@ a:hover{
   height: 0;
   color: #03bbd3;
   font-size: 50px;
-  margin-left: 50%;
+  margin-left: 9%;
   
 }
 
@@ -249,6 +252,9 @@ li a{
     padding:5px 50px;
     color: rgb(7, 203, 238);
     text-decoration: none;
+}
+.texto{
+  margin-top: -520px;
 }
 
 
@@ -277,16 +283,12 @@ li a{
 
 
 .imagen{
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  margin-left: 21%;
-  margin-top: -8px;
+ display: none;
 }
 
 .part2{
-  background-color: rgba(1, 14, 12, 0.849);
-  margin-top: 3%;
+  
+  margin-top: 80%;
   height: 490px;
 }
 
@@ -326,7 +328,7 @@ margin: 0;
   transition: 1s;
 }
 .part3{
-  background-color: rgba(1, 14, 12, 0.849);
+  
   margin-top: 13%;
   height: 690px;
 }
@@ -334,7 +336,7 @@ margin: 0;
 
 .contatos{
   margin-top: 12%;
-  background-color: rgba(1, 14, 12, 0.849);
+  
   height: 140px;
  }
 

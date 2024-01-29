@@ -1,0 +1,138 @@
+
+html,body{
+background: url(borrao.png);
+background-repeat: no-repeat;
+background-position: right 20px;
+background-size: 590px;
+background-color: rgb(0, 5, 8);
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+font-family: 'Honk', system-ui;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Burned', system-ui;
+}
+    
+
+.clear{
+    clear: both;
+    width: 0;
+}
+
+.cabeca{
+    margin-top: 30px;
+}
+
+h1{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, rgb(227, 238, 125), rgb(212, 97, 21), rgb(195, 9, 219));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    float: inline-start;
+    margin-left: 200px;
+    
+}
+
+.meio{
+    background-image: linear-gradient(to bottom, rgb(227, 238, 125), rgb(212, 97, 21), rgb(195, 9, 219));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+    margin-left: 90px;
+   margin-top: -300px;
+}
+
+h2{
+    font-size: 40px;
+    background-color: aliceblue;
+    width: 0;
+}
+
+p{
+  font-size: 20px;
+    width: 550px;
+}
+.img{
+    margin-top: 20px;
+    margin-left: 830px;
+    width: 300px;
+    height: 300px;
+}
+
+form.form-login{
+    float: left;
+}
+
+.form-login .form-element{
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+.form-element{
+    color: rgb(84, 2, 122);
+    font-size: 50px;
+
+}
+
+.form-element input[type=email],
+.form-element input[type=password]{
+    margin-top: 16px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    
+}
+
+
+form{
+    margin-top: 150px;
+    padding: 0;
+    width: 0;
+    margin-left: 100px;
+    
+}
+
+form p{
+    margin-left: 0px;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(145, 5, 226);
+    border: 0;
+}
+
+.rodape{
+    position: absolute;
+    width: 0;
+}
+
+footer p{
+    margin-left: 400px;
+}
+footer{
+    margin-left: -100px;
+    margin-top: 120px;
+    width: 1280px;
+    height: 50px;
+    background-color: rgb(174, 0, 255);
+    color: white;
+    text-align: center;
+}
